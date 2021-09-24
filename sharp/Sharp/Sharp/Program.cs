@@ -6,7 +6,18 @@ namespace Sharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // hello world
+            HelloWorld.Message();
+
+
+            // variables
+            Variables.Define();
+
+
+            // branches
+            Branches.If();
+            Branches.IfElse();
+            Branches.IfElseIf();
         }
     }
 }
