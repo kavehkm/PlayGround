@@ -26,7 +26,10 @@ namespace Sharp
             Loops.WhileLoop();
             Loops.ForeachLoop();
 
-
+            // array
+            Array.Define();
+            Array.DefineAndInitialize();
+            Array.Access();
         }
     }
 }
