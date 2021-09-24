@@ -54,5 +54,26 @@ namespace Sharp
                 Console.WriteLine("Bad");
             }
         }
+
+        public static void Swithch()
+        {
+            int mark = userInput();
+
+            switch (mark)
+            {
+                case 20:
+                    Console.WriteLine("Excellent");
+                    break;
+                case 19:
+                    Console.WriteLine("Not bad");
+                    break;
+                case 18:
+                    Console.WriteLine("Not good");
+                    break;
+                default:
+                    Console.WriteLine("Waht the hello?");
+                    break;
+            }
+        }
     }
 }

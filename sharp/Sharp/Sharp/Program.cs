@@ -18,6 +18,15 @@ namespace Sharp
             Branches.If();
             Branches.IfElse();
             Branches.IfElseIf();
+            Branches.Swithch();
+
+
+            // loops
+            Loops.ForLoop();
+            Loops.WhileLoop();
+            Loops.ForeachLoop();
+
+
         }
     }
 }
