@@ -26,10 +26,12 @@ namespace Sharp
             Loops.WhileLoop();
             Loops.ForeachLoop();
 
+
             // array
             Array.Define();
             Array.DefineAndInitialize();
             Array.Access();
+
 
             // classes
             Account account1 = new Account(1, "kaveh", "mehrbanian", 100);
@@ -49,9 +51,11 @@ namespace Sharp
             dog.MakeSound();
             dog.Sleep();
 
+
             // enum
             Console.WriteLine(Size.Small);
             Console.WriteLine(Convert.ToInt32(Size.Medium));
+
 
             // file
             Files files = new Files("myfile.txt");
