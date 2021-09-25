@@ -41,6 +41,22 @@ namespace Sharp
             Account1 account2 = new Account1(2, "mehran", "falahaty");
             account2.Balance = 1000;
             Console.WriteLine(account2.Balance);
+            // - working with polymorphism
+            Animal animal = new Animal("Googole");
+            animal.MakeSound();
+            animal.Sleep();
+            Dog dog = new Dog("Zebra", "Dalmatian");
+            dog.MakeSound();
+            dog.Sleep();
+
+            // enum
+            Console.WriteLine(Size.Small);
+            Console.WriteLine(Convert.ToInt32(Size.Medium));
+
+            // file
+            Files files = new Files("myfile.txt");
+            files.Write("hello world");
+            Console.WriteLine(files.Read());
         }
     }
 }
